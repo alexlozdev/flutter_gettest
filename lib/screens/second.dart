@@ -44,6 +44,7 @@ class SecondScreen extends StatelessWidget {
   }
 
   _onBackPressed() {
+    Get.delete<CountController>();
     Get.back();
     //Get.offAll(HomeScreen());
   }
